@@ -9,7 +9,7 @@ class App extends Component {
         return (
             <BrowserRouter>
               <div>
-                <NavLink exact to="/Accueil"> Accueil </NavLink>
+                <NavLink exact to="/"> Accueil </NavLink>
                 <NavLink to="/page-de-contact"> Contact </NavLink>
                 <NavLink to="/notre-histoire" activeStyle={{color: 'red'}}> History </NavLink>
 
